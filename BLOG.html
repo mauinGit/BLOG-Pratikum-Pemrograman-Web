@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forever Blog</title>
-    <link rel="stylesheet" href="BLOG.css"> <!-- Use the merged CSS file -->
+    <link rel="stylesheet" href="BLOG.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -33,13 +33,85 @@
             </div>
         </section>
 
+        <section id="film">
+            <h2 class="section-title">MOVIES</h2>
+            <div class="media-container">
+                <div class="media-scroller">
+                    <!--   Group 1 -->
+                       <div class="media-group" id="group-1">
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="parasitecover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="interstellarcover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="thetrumancover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="oppenheimercover.png" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="jokercover.jpg" class="pilih"></a>
+                        </div>
+                        <a class="next" href="#group-2" aria-label="next">
+                            <svg>
+                                <use href="#next"></use>
+                            </svg>
+                        </a>
+                </div>
+                    <!-- Group 2   -->
+                     <div class="media-group" id="group-2">
+                        <a class="previous" href="#group-1">
+                            <svg>
+                                <use href="#previous"></use>
+                            </svg>
+                        </a>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="insidiouscover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="inceptioncover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="thepianistcover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="avangerscover.jpg" class="pilih"></a>
+                        </div>
+                        <div class="media-element">
+                            <a href="https://www.youtube.com/"><img src="gladiatorcover.jpg" class="pilih"></a>
+                        </div>
+                        <a class="previous" href="#group-1">
+                            <svg>
+                                <use href="#previous"></use>
+                            </svg>
+                        </a>
+                </div>
+                
+                <div class="navigation-indicators">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <svg>
+            <symbol id="next" viewBox="0 0 256 512">
+                <path fill="white" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+            </symbol>
+            <symbol id="previous" viewBox="0 0 256 512">
+                <path fill="white" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+            </symbol>
+        </svg>
+        </section>
+
         <section id="about-us">
             <div class="wrapper">
                 <h2>About Us</h2>
                 <h4>Meet Our Team</h4>
                 <div class="team_box">
                     <div class="profile1">
-                        <img src="yolan2.jpeg" alt="Yolanda Aradi">
+                        <img src="Yolanda.jpeg" alt="Yolanda Aradi">
                         <div class="team_abouttext">
                             <h3 class="name">Yolanda Aradi</h3>
                             <p class="nim">09031282429080</p>
@@ -51,7 +123,7 @@
                         </div>
                     </div>
                     <div class="profile1">
-                        <img src="fillah2.jpeg" alt="M. Fillah Attaqy">
+                        <img src="Fillah.jpeg" alt="M. Fillah Attaqy">
                         <div class="team_abouttext">
                             <h3 class="name">M. Fillah Attaqy</h3>
                             <p class="nim">09031282429077</p>
@@ -63,7 +135,7 @@
                         </div>
                     </div>
                     <div class="profile1">
-                        <img src="maul2.jpeg" alt="Maulana Adiatma">
+                        <img src="Maulana.jpeg" alt="Maulana Adiatma">
                         <div class="team_abouttext">
                             <h3 class="name">Maulana Adiatma</h3>
                             <p class="nim">09031182429017</p>
@@ -75,7 +147,7 @@
                         </div>
                     </div>
                     <div class="profile1">
-                        <img src="juwi2.jpeg" alt="Juwita Mayasari">
+                        <img src="Juwita.jpeg" alt="Juwita Mayasari">
                         <div class="team_abouttext">
                             <h3 class="name">Juwita Mayasari</h3>
                             <p class="nim">09031282429083</p>
