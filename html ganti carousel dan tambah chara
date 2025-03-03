@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forever Blog</title>
+    <link rel="stylesheet" href="BLOG.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="#"><i class="fas profile"></i></a></li>
+              <li><a href="#"><div class="menu-icon">&#9776;</div></a></li>
+                <li class="spacer"></li>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#film">Movies</a>
+            </li>
+            <li>
+                <a href="#aboutus">About Us</a>
+            </li>
+            <li>
+                <input type="text" class="search-bar" placeholder="Search...">
+            </li>
+        </ul>
+        </div>
+    </div>
+        </nav>
+      </header>
+
+
+    <main>
+        <section id="home">
+            <h1><span class="foreverH">Forever</span><span class="blogH">Blog</span></h1>
+            <div class="description">
+                <p>Welcome to Forever Blog, a space where music and films come to life through words. Here, we share honest reviews, deep insights, and personal reflections on the latest releases and timeless classics. Whether you're a movie buff or a music enthusiast, this blog is your guide to discovering stories that resonate. Stay tuned for fresh perspectives and thoughtful recommendations!</p>
+            </div>
+        </section>
+
+        <section id="film">
+            <div class="section-title">
+                <h2 
+                            style="
+                                      color: white;
+                                      text-align: left;
+                                  ">Berita Terkini
+                                  </h2>
+                </div>
+                <div class="carousel-background"></div>
+                <div class="media-container">
+                  <div class="media-scroller">
+              
+                    <!--   Group 1 -->
+                    <div class="media-group" id="group-1">
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="parasitecover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="interstellarcover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="thetrumancover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="oppenheimercover.png" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="jokercover.jpg" class="pilih"></a>
+                      </div>
+              
+                      <a class="next" href="#group-2" aria-label="next">
+                        <svg>
+                          <use href="#next"></use>
+                        </svg>
+                      </a>
+                    </div>
+              
+                    <!-- Group 2   -->
+                    <div class="media-group" id="group-2">
+                      <a class="previous" href="#group-1">
+                        <svg>
+                          <use href="#previous"></use>
+                        </svg>
+                      </a>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="insidiouscover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="inceptioncover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="thepianistcover.jpg" class="pilih"></a>
+                      </div>
+                      <div class="media-element">
+                        <a href="https://www.youtube.com/"><img src="avangerscover.jpg" class="pilih"></a>
+                      </div>
+                      <dikv class="media-element">
+                        <a href="https://www.youtube.com/"><img src="gladiatorcover.jpg" class="pilih"></a>
+                      </div>
+                      <a class="previous" href="#group-1">
+                        <svg>
+                          <use href="#previous"></use>
+                        </svg>
+                      </a>
+                        </div>
+              
+                    <div class="navigation-indicators">
+                      <div></div>
+                      <div></div>
+                    </div>
+              
+                  </div>
+                </div>
+              
+                <svg>
+                  <symbol id="next" viewBox="0 0 256 512">
+                    <path fill="white"
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                  </symbol>
+              
+                  <symbol id="previous" viewBox="0 0 256 512">
+                    <path fill="white"
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                  </symbol>
+                </svg>
+
+                <div class="buatcard">
+                    <div class="judul">
+                        <h2
+                            style="
+                                color: white;
+                                text-align: left;
+                            "
+                        >
+                            Characters
+                        </h2>
+                    </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="oppenheimercover.png">
+                         <hr>
+                        <div class="card-content">
+                            <h1>J</h1>
+                            <p> QIQI DELIPERI</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/hearing-loss-concept-
+                                illustration_114360-25806.jpg?ga=GA1.1.287183185.1738559866&semt=ais_hybrid">
+                                <hr>
+                        <div class="card-content">
+                            <h1>NOPES</h1>
+                            <p >SEPIRIT</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/couple-cooking-concept-
+                        illustration_114360-20992.jpg?ga=GA1.1.287183185.1738559866&semt=ais_hybrid">
+                        <hr>
+                        <div class="card-content">
+                            <h1>CAQSU</h1>
+                            <p>HOWEL</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+
+        <section id="aboutus">
+            <div class="wrapper">
+                <h2>About Us</h2>
+                <h4>Meet Our Team</h4>
+                <div class="team_box">
+                    <div class="profile1">
+                        <img src="Yolanda.jpeg" alt="Yolanda Aradi">
+                        <div class="team_abouttext">
+                            <h3 class="name">Yolanda Aradi</h3>
+                            <p class="nim">09031282429080</p>
+                            <div class="team_social">
+                                <a href="https://www.instagram.com/yola___a"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/yolanda-aradi-b36237343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile1">
+                        <img src="Fillah.jpeg" alt="M. Fillah Attaqy">
+                        <div class="team_abouttext">
+                            <h3 class="name">M. Fillah Attaqy</h3>
+                            <p class="nim">09031282429077</p>
+                            <div class="team_social">
+                                <a href="https://www.instagram.com/fillah_att"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile1">
+                        <img src="Maulana.jpeg" alt="Maulana Adiatma">
+                        <div class="team_abouttext">
+                            <h3 class="name">Maulana Adiatma</h3>
+                            <p class="nim">09031182429017</p>
+                            <div class="team_social">
+                                <a href="https://www.instagram.com/adiatma__23?igsh=MWx6Z2VzcDNxYTJ6NA=="><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/mauinGit"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/maulanaadiatma?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile1">
+                        <img src="Juwita.jpeg" alt="Juwita Mayasari">
+                        <div class="team_abouttext">
+                            <h3 class="name">Juwita Mayasari</h3>
+                            <p class="nim">09031282429083</p>
+                            <div class="team_social">
+                                <a href="https://instagram.com/jwtmysr._"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/juweiuniverse"><i class="fa-brands fa-github"></i></a>
+                                <a href="http://www.linkedin.com/in/juwita-mayasari-8a4776322"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
