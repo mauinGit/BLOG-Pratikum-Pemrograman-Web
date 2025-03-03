@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap'); 
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('BackgroundBlog.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.menu {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a.logo {
+    font-size: 1.5em;
+}
+
+nav ul li a.logo .foreverN {
+    color: purple;
+}
+
+nav ul li a.logo .blogN {
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    font-size: 1.5em;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.spacer-large {
+    flex-grow: -1;
+}
+
+.search-bar {
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+}
+
+h1 {
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 8em;
+    margin-top: 75px;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk mendekatkan ke paragraf */
+    font-family: 'Times New Roman', serif; 
+}
+
+.foreverH {
+    color: rgb(0, 0, 0);
+}
+
+.blogH {
+    color: white;
+}
+
+body {
+    background-color: black;
+    /* padding-left: 20px; */
+}
+
+.judul {
+    padding-left: 100px;
+    text-shadow: 2px -2px 4px white;
+    padding-top: 10px;
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buatcard {
+    margin-top: -70px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 325px;
+    min-height: 300px;
+    background-color: green;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ff3d0036;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card hr {
+    width: 80%;
+    margin: 10px auto;
+    height: 2px;
+    background-color: #333;
+    border: none;
+    width: 250px;
+    align-items: justify;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.card-content h1 {
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px -2px 4px white;
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-content p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#about-us {
+    padding-top: 300px;
+ }
+
+.description {
+    font-size: 1.5em; 
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk mendekatkan ke ujung halaman */
+    line-height: 1.6; /* Menambahkan jarak antar baris */
+}
+
+.wrapper h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.wrapper h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.wrapper .team_box {
+    width: 70%; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrapper .team_box .profile1 {
+    width: 200px; 
+    height: auto;
+    margin: 20px;
+    text-align: center;
+}
+
+.wrapper .team_box .profile1 img {
+    width: 160px; 
+    height: 160px;
+    border-radius: 50%;
+}
+
+.wrapper .team_box .profile1 img:hover {
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 black, 0 0 10px 4px black;
+    color: black;
+}
+
+.wrapper .team_box .profile1 .team_abouttext .name {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wrapper .team_box .profile1 .team_abouttext .nim {
+    color: black;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    font-size: 16px; 
+}
+
+.wrapper .team_box .profile1 .team_abouttext .team_social {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .team_box .profile1 .team_abouttext .team_social i {
+    margin: 10px 5px 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    font-size: 20px; 
+}
+
+.wrapper .team_box .profile1 .team_abouttext .team_social i:hover {
+    color: white;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img, svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* General Styling */
+.container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+}
+
+.flow {
+    display: grid;
+    gap: var(--flow-spacer, 1rem);
+}
+
+.page-header {
+    padding-block: 5rem;
+    margin-block-end: 5rem;
+    background-image: url("https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=1200"),
+        linear-gradient(-25deg, rgb(0 0 0 / 0), rgb(0 0 0 / 1) 50%);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+}
+
+.carousel-background {
+    margin-top: 350px;
+    position: absolute;
+    top: 100%;
+    left: 62%;
+    width: 100%;
+    height: 350px;
+    background-color: #165016; 
+    border-radius: 30px; 
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    margin-right: 45px;
+    margin-left: -70px;
+}
+
+.section-title {
+  position: relative;
+  top: -25px;
+  margin-bottom: 10px;
+  margin-block: 4rem;
+  z-index: 18;
+  padding-left: 50px;
+  text-shadow: 2px -2px 4px white;
+  font-family: "Della Respira", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+.page-title {
+    font-size: 4rem;
+    margin: 0;
+}
+
+section {
+    padding: 60px;
+}
+
+.section-title {
+    margin-block: 4rem 1rem;
+}
+
+/* Media Scroller */
+.media-container {
+    position: relative;
+}
+
+.media-scroller, .media-group {
+    display: grid;
+    gap: 0.25rem;
+    grid-auto-flow: column;
+}
+
+.media-scroller {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    grid-auto-columns: 100%;
+    padding: 0 3rem;
+    scroll-padding-inline: 3rem;
+}
+
+.media-group {
+    grid-auto-columns: 1fr;
+}
+
+.media-element {
+    flex: 0 0 auto;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-right: 45px;
+    height: 380px;
+}
+
+.media-element > img {
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    display: block;
+}
+
+.pilih {
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    display: block;
+}
+
+/* Navigation Buttons */
+.next, .previous {
+    display: none;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    width: 3rem;
+    height: 300px;
+    padding: 1rem;
+    background: rgb(0 0 0 / 0);
+    opacity: 0;
+}
+
+.previous {
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.next {
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.media-group:first-child :where(.next, .previous) {
+    display: flex;
+}
+
+.media-scroller:hover :where(.next, .previous) {
+    opacity: 1;
+}
+
+:where(.next, .previous):hover {
+    background: rgb(0 0 0 / 0.3);
+}
+
+:where(.next, .previous) > svg {
+    transition: transform 75ms linear;
+    transform: scale(1);
+}
+
+:where(.next, .previous):hover > svg {
+    transform: scale(1.2);
+}
+
+.media-group:target :where(.next, .previous) {
+    display: flex;
+}
+
+.media-scroller:has(:target:not(:first-child)) .media-group:first-of-type .next {
+    display: none;
+}
+
+/* Navigation Indicators */
+.navigation-indicators {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    gap: 3px;
+    top: -1rem;
+    right: 2rem;
+}
+
+.navigation-indicators > * {
+    width: 1rem;
+    height: 2px;
+    background: white;
+    opacity: 0.5;
+}
+
+.media-scroller:has(.media-group:target) .navigation-indicators > *:nth-child(1) {
+    opacity: 0.5;
+}
+
+.navigation-indicators > *:nth-child(1),
+.media-group:nth-child(1):target ~ .navigation-indicators > *:nth-child(1) {
+    opacity: 1;
+}
+
+.media-group:nth-child(2):target ~ .navigation-indicators > *:nth-child(2) {
+    opacity: 1;
+}
+
+.media-group:nth-child(3):target ~ .navigation-indicators > *:nth-child(3) {
+    opacity: 1;
+}
+
+.media-group:nth-child(4):target ~ .navigation-indicators > *:nth-child(4) {
+    opacity: 1;
+}
+
+.media-scroller:hover .navigation-indicators {
+    opacity: 1;
+}
+
+
+
